@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/prova"
+        style="@style/ListBackContent"
+        android:tag="back" >
+
+        <Button
+            android:id="@+id/duplica"
+            style="@style/ListButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duplica" />
+
+        <Button
+            android:id="@+id/modifica"
+            style="@style/ListButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modifica" />
+
+        <Button
+            android:id="@+id/elimina"
+            style="@style/ListButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elimina" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rowSpesa"
+        style="@style/ListFrontContent"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:tag="front" >
+
+        <RelativeLayout
+            android:id="@+id/rowSpesaInutile"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/data"
+                style="@style/ListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="@string/data_min" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/tagLL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/data"
+                android:layout_marginLeft="5dip"
+                android:orientation="vertical" >
+
+                <utils.ScrollingTextView
+                    android:id="@+id/firstTag"
+                    style="@style/ListSection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/long_text" />
+
+                <Button
+                    android:id="@+id/mostraTagButton"
+                    style="@style/TagButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/firstTag"
+                    android:background="@drawable/tag_button"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/tutti_i_tag" />
+
+                <TextView
+                    android:id="@+id/importo"
+                    style="@style/ListDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/mostraTagButton"
+                    android:layout_alignBottom="@+id/mostraTagButton"
+                    android:layout_marginLeft="14dp"
+                    android:layout_toRightOf="@+id/mostraTagButton"
+                    android:text="@string/importo"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

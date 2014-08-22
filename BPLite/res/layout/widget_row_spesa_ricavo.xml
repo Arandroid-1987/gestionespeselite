@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowSpesaInutile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_front_drawable" >
+
+    <TextView
+        android:id="@+id/data"
+        style="@style/ListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="@string/data_min" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/tagLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data"
+        android:layout_marginLeft="5dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/firstTag"
+            style="@style/ListSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/long_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/importo"
+        style="@style/ListDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tagLL"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dp"
+        android:text="@string/importo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" >
+    </TextView>
+
+</RelativeLayout>

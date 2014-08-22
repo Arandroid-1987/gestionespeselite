@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/keyView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <utils.KeyButton
+            android:id="@+id/keyButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="1"
+            custom:text="1"
+            custom:myTextColor="@color/white"
+             >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="2"
+            custom:text="2"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="3"
+            custom:text="3"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <utils.KeyButton
+            android:id="@+id/keyButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="4"
+            custom:text="4"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="5"
+            custom:text="5"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="6"
+            custom:text="6"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <utils.KeyButton
+            android:id="@+id/keyButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="7"
+            custom:text="7"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="8"
+            custom:text="8"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="9"
+            custom:text="9"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <utils.KeyButton
+            android:id="@+id/keyButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="10"
+            custom:useText="false"
+            custom:image="@drawable/sym_keyboard_delete">
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="0"
+            custom:text="0"
+            custom:myTextColor="@color/white" >
+        </utils.KeyButton>
+
+        <utils.KeyButton
+            android:id="@+id/keyButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:value="11"
+            custom:useText="false"
+            custom:image="@drawable/sym_keyboard_feedback_return" >
+        </utils.KeyButton>
+
+    </LinearLayout>
+
+</LinearLayout>

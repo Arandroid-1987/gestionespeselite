@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+            <item><shape>
+                    <gradient android:endColor="@color/db_green" android:startColor="@color/db_green" />
+<!--                     <stroke android:width="1dp" android:color="@color/dark_grey" /> -->
+                    <padding android:bottom="3dp" android:left="0dp" android:right="0dp" android:top="3dp" />
+                </shape></item>
+        </layer-list></item>
+
+</selector>

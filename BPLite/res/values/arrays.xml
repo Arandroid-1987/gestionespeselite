@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="periodi">
+        <item>@string/visualizza_tutti</item>
+        <item>@string/giorno</item>
+        <item>@string/settimana</item>
+        <item>@string/mese</item>
+        <item>@string/trimestre</item>
+        <item>@string/semestre</item>
+        <item>@string/anno</item>
+        <item>@string/biennio</item>
+    </array>
+    <array name="periodi_bilancio">
+        <item>@string/bilancio_totale</item>
+        <item>@string/giorno</item>
+        <item>@string/settimana</item>
+        <item>@string/mese</item>
+        <item>@string/trimestre</item>
+        <item>@string/semestre</item>
+        <item>@string/anno</item>
+        <item>@string/biennio</item>
+    </array>
+    <array name="periodi_ripeti">
+        <item>@string/mai</item>
+        <item>@string/ogni_giorno</item>
+        <item>@string/ogni_settimana</item>
+        <item>@string/ogni_mese</item>
+        <item>@string/ogni_bimestre</item>
+        <item>@string/ogni_trimestre</item>
+        <item>@string/ogni_semestre</item>
+        <item>@string/ogni_anno</item>
+        <item>@string/ogni_biennio</item>
+        <item>@string/personalizzato</item>
+    </array>
+    <array name="grafici">
+        <item>@string/bilancio</item>
+        <item>@string/andamento_bilancio</item>
+    </array>
+    <array name="schermate">
+        <item>@string/home</item>
+        <item>@string/aggiungi_nuova_spesa</item>
+        <item>@string/aggiungi_nuovo_ricavo</item>
+        <item>@string/riepilogo_spese</item>
+        <item>@string/riepilogo_ricavi</item>
+        <item>@string/bilanci</item>
+        <item>@string/impostazioni</item>
+        <item>@string/about</item>
+    </array>
+    <array name="mesi">
+        <item>@string/gennaio</item>
+        <item>@string/febbraio</item>
+        <item>@string/marzo</item>
+        <item>@string/aprile</item>
+        <item>@string/maggio</item>
+        <item>@string/giugno</item>
+        <item>@string/luglio</item>
+        <item>@string/agosto</item>
+        <item>@string/settembre</item>
+        <item>@string/ottobre</item>
+        <item>@string/novembre</item>
+        <item>@string/dicembre</item>
+    </array>
+</resources>

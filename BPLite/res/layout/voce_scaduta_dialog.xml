@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="@string/data_min"
+        android:textColor="@color/holo_base"
+        android:textSize="17sp" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/tagLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:orientation="vertical" >
+
+        <utils.ScrollingTextView
+            android:id="@+id/firstTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/long_text"
+            android:textColor="@color/holo_base"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/mostraTag"
+            style="@style/ListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:background="@drawable/tag_button"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/tutti_i_tag" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/importo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dp"
+        android:text="@string/importo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/holo_base"
+        android:textSize="14sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/confermaButton"
+            style="@style/DialogButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/conferma" />
+
+        <Button
+            android:id="@+id/posticipaButton"
+            style="@style/DialogButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/posticipa" />
+
+        <Button
+            android:id="@+id/cancellaButton"
+            style="@style/DialogButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/elimina" />
+    </LinearLayout>
+
+</LinearLayout>

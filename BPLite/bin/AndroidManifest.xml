@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arandroid.bplite"
+    android:installLocation="auto"
+    android:versionCode="11"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_lite"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.SwipeListView" >
+
+        <activity
+            android:name="com.arandroid.bilanciopersonale.StartActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.AddSpesaActivity"
+            android:label="@string/title_activity_add_spese_ricavi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.AddRicavoActivity"
+            android:label="@string/title_activity_add_spese_ricavi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.VisualizzaSpeseActivity"
+            android:label="Visualizza Spese"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.VisualizzaRicaviActivity"
+            android:label="Visualizza Ricavi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.FileChooser"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.MainLayoutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arandroid.bilanciopersonale.RiepilogoGiornalieroActivity"
+            android:label="@string/title_activity_riepilogo_giornaliero"
+            android:parentActivityName="com.arandroid.bilanciopersonale.MainLayoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.arandroid.bilanciopersonale.MainLayoutActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>
