@@ -1,0 +1,301 @@
+<resources>
+
+    <string name="app_name">BudgetManager Lite</string>
+    <string name="widget_spese_name">Costs Widget</string>
+    <string name="widget_ricavi_name">Incomes Widget</string>
+    <string name="service_name">Budget Manager Notification</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">Budget Manager</string>
+    <string name="title_activity_add_spese_ricavi">Add Budget Item</string>
+    <string name="defaultString">Hello</string>
+    
+    <string name="open">Open</string>
+    <string name="googlePlay">Google Play</string>
+    <string name="uninstall">Uninstall</string>
+
+    <string name="cantOpen">Can\'t open this application</string>
+    <string name="settings">Settings</string>
+    <string name="mode">Swipe Mode</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="both">Both</string>
+    <string name="leftAction">Left Action</string>
+    <string name="reveal">Reveal</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="choice">Choice</string>
+    <string name="rightAction">Right Action</string>
+    <string name="rightOffset">Right Offset (%1$s dp)</string>
+    <string name="leftOffset">Left Offset (%1$s dp)</string>
+    <string name="dp">dp</string>
+    <string name="animationTime">Animation Time (Default: 0)</string>
+    <string name="milliseconds">Milliseconds</string>
+    <string name="openOnLongPress">Open On Long Press</string>
+
+    <string name="about">About</string>
+    <string name="aboutMessage">This is just a simple demo for the Open Source SwipeListView Android Library by 47 Degrees. Find all source, documentation and packaged downloads at GitHub. Cheers!</string>
+    <string name="ok">OK</string>
+
+    <string name="visit47">Visit 47deg</string>
+    <string name="goToGitHub">Go to GitHub</string>
+
+    <string name="dontShow">Don\'t show this message again</string>
+    <string name="others">Others</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="newTag">New!</string>
+    <string name="discard">Discard</string>
+    
+    <string name="aboutAltro">Other from ARANDROID on the Play Store:</string>
+    
+	<string name="textOn">ON</string>
+    <string name="textOff">OFF</string>
+    
+    <string name="accedi">Login</string>
+    <string name="annulla">Undo</string>
+    <string name="mostra_password">Show Password</string>
+    <string name="password_dimenticata">Did you forget password? Click here!</string>
+    <string name="data">Date:</string>
+    <string name="data_min">date</string>
+    <string name="inserisci_importo">Insert Amount:</string>
+    <string name="zero_double">0.00</string>
+    <string name="euro_simbol">€</string>
+    <string name="tag">Tag</string>
+    <string name="aggiungi_un_tag">Add a tag</string>
+    <string name="aggiungi">Add</string>
+    <string name="ripeti">Repeat:</string>
+    <string name="ripeti_fra">Repeat In:</string>
+    <string name="reset">Reset</string>
+    <string name="ultimo_mese">Last Month</string>
+    <string name="visualizza_ultimo_a">View Last:</string>
+    <string name="dal">From:</string>
+    <string name="al">To:</string>
+    <string name="grafici">Diagrams</string>
+    <string name="cosa_vuoi_vedere">CHOOSE WHAT TO SEE</string>
+    <string name="grafico">Diagram:</string>
+    <string name="esporta_il_resoconto">REPORT EXPORT</string>
+    <string name="pdf">PDF</string>
+    <string name="testo">Text</string>
+    <string name="excel">Excel</string>
+    <string name="csv">CSV</string>
+    <string name="separatore">Separator</string>
+    <string name="esporta">Export</string>
+    <string name="giorni">Days</string>
+    <string name="nessuna_voce_trovata">No balance item found</string>
+    <string name="tra">Between</string>
+    <string name="e">And</string>
+    <string name="applica_filtro">Apply Filter</string>
+    <string name="reset_filtro">Reset Filter</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="imposta_password">SET PASSWORD</string>
+    <string name="proteggi_con_password">Protect with password:</string>
+    <string name="password">Password:</string>
+    <string name="inserisci">Insert</string>
+    <string name="email">Email:</string>
+    <string name="per_recupero">For a possible recovery</string>
+    <string name="gia_pratica">DID YOU PRACTICE ALREADY?</string>
+    <string name="tutorial">Tutorial:</string>
+    <string name="attiva_backup_automatico">ACTIVATE AUTOMATIC BACKUP</string>
+    <string name="backup_automatico">Automatic Backup:</string>
+    <string name="ripeti_ogni">Repeat Each:</string>
+    <string name="usa_stesso_file">Use same file:</string>
+    <string name="esporta_resoconto_generale">GENERAL REPORT EXPORT</string>
+    <string name="non_dimenticarti_di_salvare">DON\'T FORGET TO SAVE!</string>
+    <string name="salva">Save</string>
+    <string name="duplica">Duplicate</string>
+    <string name="modifica">Edit</string>
+    <string name="elimina">Delete</string>
+    <string name="long_text">ScrollingTextViewScrollingTextViewScrollingTextViewScrollingTextView</string>
+	<string name="tutti_i_tag">All Tags</string>
+	<string name="importo">amount</string>
+	<string name="schermata_bug">Bug Screen:</string>
+	<string name="descrizione_bug">Bug description:</string>
+	<string name="segnala">Report</string>
+	<string name="ricavi">Incomes</string>
+	<string name="spese">Costs</string>
+	<string name="conferma">Confirm</string>
+	<string name="posticipa">Posticipate</string>
+	
+	<string name="visualizza_tutti">View All</string>
+    <string name="giorno">Day</string>
+    <string name="settimana">Week</string>
+    <string name="mese">Month</string>
+    <string name="trimestre">Quarter Year</string>
+    <string name="semestre">Half Year</string>
+    <string name="anno">Year</string>
+    <string name="biennio">Biennium</string>
+    <string name="bilancio_totale">Total Budget</string>
+    <string name="mai">Never</string>
+    <string name="ogni_giorno">Each Day</string>
+    <string name="ogni_settimana">Each Week</string>
+    <string name="ogni_mese">Each Month</string>
+    <string name="ogni_bimestre">Each Two Months</string>
+    <string name="ogni_trimestre">Each Quarter Year</string>
+    <string name="ogni_semestre">Each Half Year</string>
+    <string name="ogni_anno">Each Year</string>
+    <string name="ogni_biennio">Each Biennium</string>
+    <string name="personalizzato">Custom</string>
+    <string name="bilancio">Balance</string>
+    <string name="andamento_bilancio">Trend</string>
+    <string name="home">Home</string>
+    <string name="aggiungi_nuova_spesa">Add New Cost</string>
+    <string name="aggiungi_nuovo_ricavo">Add New Income</string>
+    <string name="riepilogo_spese">Costs Summary</string>
+    <string name="riepilogo_ricavi">Incomes Summary</string>
+    <string name="bilanci">Balances</string>
+    <string name="impostazioni">Settings</string>
+	<string name="nuova_spesa">New Cost</string>
+	<string name="nuovo_ricavo">New Income</string>
+	<string name="gestione_db">DB Manager</string>
+	<string name="aggiungi_almeno_una_spesa">Add at least one cost</string>
+	<string name="aggiungi_almeno_un_ricavo">Add at least one income</string>
+	<string name="nessuna_voce_di_bilancio_trovata">No budget item found</string>
+	<string name="inserimento_avvenuto_con_successo">Successful Insert</string>
+	<string name="errore_nell_inserimento_dei_dati">Error while inserting</string>
+	<string name="inserire_un_numero_diverso_da_zero">Insert a non-zero number</string>
+	<string name="periodo_personalizzato">Custom Period</string>
+	<string name="programma">Plan</string>
+	
+	<string name="imposta_data_inizio_fine">Set start date before end date</string>
+	<string name="imposta_data_fine_inizio">Set end date after start date</string>
+	<string name="classico">CLASSIC</string>
+	<string name="personalizzato_uc">CUSTOM</string>
+	<string name="bilancio_personalizzato">Custom Balance</string>
+	<string name="bilancio_giornaliero">Daily Balance</string>
+	<string name="bilancio_settimanale">Weekly Balance</string>
+	<string name="bilancio_mensile">Monthly Balance</string>
+	<string name="bilancio_trimestrale">Quarterly Balance</string>
+	<string name="bilancio_semestrale">Half-yearly Balance</string>
+	<string name="bilancio_annuale">Yearly Balance</string>
+	<string name="bilancio_biennale">Biennal Balance</string>
+	<string name="bilancio_column">Balance: </string>
+	<string name="spese_column">Costs: </string>
+	<string name="ricavi_column">Incomes: </string>
+	<string name="grafico_non_supportato">Diagram not supported for selected period</string>
+	<string name="attenzione_nessun_file_selezionato">Warning! No file selected!</string>
+	<string name="esportazione_successo">Successful exporting</string>
+	<string name="errore_esportazione_dati">Error while exporting</string>
+	
+	<string name="settimane">Weeks</string>
+    <string name="mesi">Months</string>
+    <string name="password_troppo_corta">Password too short</string>
+    <string name="email_non_corretta">Incorrect Email</string>
+    <string name="inserisci_valore_valido">Insert a valid value in text field</string>
+    <string name="inserisci_valore">Insert a value in text field</string>
+    
+    <string name="spese_recenti">Recent Costs</string>
+    <string name="ricavi_recenti">Recent Incomes</string>
+    <string name="password_errata">Wrong Password</string>
+    <string name="password_inviata_email">We\'ve sent the password to the stored email address</string>
+	<string name="database_resettato">Database reset</string>
+	<string name="data_uc_column_space">DATE: </string>
+	<string name="importo_uc_column_space">AMOUNT: </string>
+	<string name="tag_uc_column_space">TAG: </string>
+	<string name="voce_programmata_scaduta">Planned Item Expired</string>
+	
+	<string name="controllare_importi">Check inserted amounts</string>
+	<string name="ricavi_programmati">Planned Incomes</string>
+	<string name="spese_programmate">Planned Costs</string>
+	<string name="filtra_per_data">Filter By Date</string>
+	<string name="filtra_per_tag">Filter By Tag</string>
+	<string name="filtra_per_importo">Filter By Amount</string>
+	
+	<string name="hai_effettuato_spesa">Did you have this cost?</string>
+	<string name="hai_ottenuto_ricavo">Did you get this income?</string>
+	
+	<string name="periodo">Period </string>
+	<string name="periodi">Periods</string>
+	<string name="carica_altri">Load More</string>
+	
+	<string name="rimozione_avvenuta_con_successo">Successful delete</string>
+	<string name="errore_rimozione_dati">Errore while deleting</string>
+	<string name="vuoi_eliminare_voce_programmata">Delete also planned item?</string>
+	
+	<string name="backup_effettuato_in">Backup done in sdcard/gestionespese!</string>
+	<string name="restore_effettuato">Restore done!</string>
+	
+	<string name="casa">home</string>
+	<string name="affitto">house rent</string>
+	<string name="contanti">cash</string>
+	<string name="bancomat">bancomat</string>
+	<string name="alimentari">food</string>
+	<string name="rata">payment</string>
+	<string name="tecnologia">technology</string>
+	<string name="abbigliamento">clothes</string>
+	<string name="hobby">hobby</string>
+	<string name="automobile">car</string>
+	<string name="stipendio">salary</string>
+	<string name="conto_corrente">checking account</string>
+	<string name="commercio">commerce</string>
+	<string name="vincita">win</string>
+	<string name="vendita">sell</string>
+	<string name="regalo">gift</string>
+	<string name="internet">internet</string>
+	
+	<string name="informazioni">Information</string>
+	<string name="versione_space_column">Version: </string>
+	<string name="autore">Author</string>
+	<string name="sito_web_autore">Author Website</string>
+	<string name="visualizzo_sito_autore">Explore Author Website</string>
+	<string name="visualizza_pagina_facebook">Explore Facebook Page</string>
+	<string name="informazioni_applicazione">Application Infos</string>
+	<string name="visualizza_faq">Explore FAQs</string>
+	<string name="visualizza_cambiamenti">Explore Changelog</string>
+	<string name="varie">Miscellaneous</string>
+	<string name="market_autore">Market Author</string>
+	<string name="visualizza_altre_app_arandroid">Explore other ARAndroid Apps!</string>
+	<string name="segnala_un_bug">Point out a Bug</string>
+	<string name="segnalaci_un_bug">Point out a Bug</string>
+	<string name="grazie_tuo_supporto">Thanks for your support!</string>
+	<string name="grazie_tua_segnalazione">Thanks for pointing it out!</string>
+	<string name="imposta_valuta">SET YOUR CURRENCY</string>
+	<string name="valuta">Currency</string>
+	<string name="simbolo">Symbol</string>
+	<string name="euro">Euro</string>
+	
+	<string name="elaborazione_in_corso">Work in Progress&#8230;</string>
+	<string name="inserisci_descrizione">Insert Description:</string>
+	
+	<string name="aiuto_tag">For search purpose.</string>
+	<string name="aiuto_descrizione">Easily identifies balance items.</string>
+	
+	<string name="il_processo_puo_durare_anche_qualche_minuto">This process may last a few minutes</string>
+	<string name="filtra">Filter</string>
+	
+	<string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    
+    <string name="salvataggio_avvenuto_con_successo">Saved Successfully!</string>
+    <string name="sei_sicuro">Are you sure?</string>
+    
+    <string name="gennaio">January</string>
+	<string name="febbraio">February</string>
+	<string name="marzo">March</string>
+	<string name="aprile">April</string>
+	<string name="maggio">May</string>
+	<string name="giugno">June</string>
+	<string name="luglio">July</string>
+	<string name="agosto">August</string>
+	<string name="settembre">September</string>
+	<string name="ottobre">October</string>
+	<string name="novembre">November</string>
+	<string name="dicembre">December</string>
+	
+	<string name="confronti">Comparisons</string>
+	<string name="acquista_pro">Buy Pro Version</string>
+	<string name="nessuna_pubblicita">No Ads!</string>
+	<string name="widget_spese_ricavi">Widget for Costs and Incomes</string>
+	<string name="notifiche">Notifications</string>
+	<string name="modifica_duplica">Edit and Duplicate Costs and Incomes</string>
+	<string name="esportazione_pdf_xls_csv">Export in PDF, Excel and CSV</string>
+	<string name="acquista_ora">Purchase Now</string>
+	<string name="acquista">Purchase</string>
+	<string name="chiudi">Close</string>
+</resources>

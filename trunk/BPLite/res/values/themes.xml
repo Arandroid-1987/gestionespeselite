@@ -1,0 +1,80 @@
+<!--
+  ~ Copyright (C) 2013 47 Degrees, LLC
+  ~  http://47deg.com
+  ~  hello@47deg.com
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.SwipeListView" parent="Theme.AppCompat.Light">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:windowTitleSize">50dip</item>
+        <item name="android:editTextStyle">@style/EditTextHoloTheme</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloTheme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxHoloTheme</item>
+        <item name="android:buttonStyle">@style/ButtonHoloTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonHoloTheme</item>
+        <item name="android:spinnerStyle">@style/SpinnerHoloTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemHoloTheme</item>
+        <item name="android:alertDialogStyle">@style/DialogStyle</item>
+        <item name="android:listViewStyle">@style/TransparentListView</item>
+        <item name="android:expandableListViewStyle">@style/TransparentExpandableListView</item>
+        <item name="switchStyle">@style/switch_light</item>
+		<item name="textAppearance">@style/TextAppearance</item>
+    </style>
+
+    <style name="TransparentListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="TransparentExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:windowTitleSize">50dip</item>
+        <item name="android:editTextStyle">@style/EditTextHoloTheme</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloTheme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxHoloTheme</item>
+        <item name="android:buttonStyle">@style/ButtonHoloTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonHoloTheme</item>
+        <item name="android:spinnerStyle">@style/SpinnerHoloTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemHoloTheme</item>
+        <item name="android:bottomBright">@android:color/white</item>
+        <item name="android:bottomDark">@android:color/white</item>
+        <item name="android:bottomMedium">@drawable/dialog_footer_bg</item>
+        <item name="android:centerBright">@android:color/white</item>
+        <item name="android:centerDark">@drawable/dialog_body_bg</item>
+        <item name="android:centerMedium">@android:color/white</item>
+        <item name="android:fullBright">@drawable/dialog_body_bg</item>
+        <item name="android:fullDark">@drawable/dialog_body_bg</item>
+        <item name="android:topBright">@drawable/dialog_header_bg</item>
+        <item name="android:topDark">@drawable/dialog_header_bg</item>
+    </style>
+    
+    <style name="AppThemeDark" parent="@android:Theme">
+		<item name="switchStyle">@style/switch_dark</item>
+		<item name="textAppearance">@style/TextAppearance</item>
+	</style>
+
+    <style name="AppThemeLight" parent="@android:Theme.Light">
+		<item name="switchStyle">@style/switch_light</item>
+		<item name="textAppearance">@style/TextAppearance</item>
+	</style>
+	
+    
+
+</resources>

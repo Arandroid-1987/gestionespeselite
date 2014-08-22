@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 47 Degrees, LLC
+  ~  http://47deg.com
+  ~  hello@47deg.com
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+-->
+
+<resources>
+
+    <!-- Commons -->
+    <color name="background_app">#dedede</color>
+    <color name="background_list_back">#e3e3e3</color>
+    <color name="text_title">#FFFFFF</color>
+    <color name="text_description">#FFFFFF</color>
+    <color name="line">#ffbcbcbc</color>
+    <color name="background_new_tag">#ff0000</color>
+    <color name="text_new_tag">#ffffff</color>
+    <color name="background_main_item">#6994a8</color>
+    <color name="bilancio_attivo">#08ff02</color>
+    <color name="bilancio_passivo">#ff0000</color>
+    <color name="bilancio_ricavi">#117f11</color>
+    <color name="bilancio_spese">#960d0d</color>
+
+    <drawable name="dialog_footer_bg">#f7f7f7</drawable>
+    <drawable name="dialog_body_bg">#f7f7f7</drawable>
+    <drawable name="dialog_header_bg">#3162bd</drawable>
+
+    <color name="orange">#ff7200</color>
+    <color name="green">#08a000</color>
+    <color name="holo_base">#31b6e7</color>
+    <color name="white">#ffffff</color>
+    <color name="Trasparente">#66FFFFFF</color>
+    <color name="pie_red">#b30000</color>
+    <color name="pie_grey">#6a6a6a</color>
+    <color name="pie_yellow">#b8c300</color>
+    <color name="dark_grey">#494949</color>
+    <color name="black">#000000</color>
+    <color name="light_grey">#bcbcbc</color>
+    
+    <color name="db_green">#76FF4D</color>
+    <color name="db_red">#FF2726</color>
+    <color name="db_blue">#42C0FB</color>
+    
+    <color name="costs">#B60000</color>
+    <color name="planned_costs">#EFC700</color>
+    <color name="incomes">#1814AE</color>
+    <color name="planned_incomes">#3E9E24</color>
+
+</resources>
