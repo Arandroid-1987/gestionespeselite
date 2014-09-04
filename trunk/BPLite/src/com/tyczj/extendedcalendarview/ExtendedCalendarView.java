@@ -117,7 +117,7 @@ public class ExtendedCalendarView extends RelativeLayout implements OnItemClickL
 		month.setId(2);
 		month.setLayoutParams(params);
 		month.setTextAppearance(context, android.R.attr.textAppearanceLarge);
-		String monthText = new SimpleDateFormat("MMMMM", Locale.getDefault()).format(cal.getTime());
+		String monthText = new SimpleDateFormat("MMMM", Locale.getDefault()).format(cal.getTime());
 		char start = Character.toUpperCase(monthText.charAt(0));
 		monthText = start+monthText.substring(1);
 		month.setText(monthText);
@@ -268,8 +268,9 @@ public class ExtendedCalendarView extends RelativeLayout implements OnItemClickL
 	
 	private void rebuildCalendar(){
 		if(month != null){
-			String monthText = new SimpleDateFormat("MMMMM", Locale.getDefault()).format(cal.getTime());
-			month.setText(monthText);
+			String monthText = new SimpleDateFormat("MMMM", Locale.getDefault()).format(cal.getTime());
+			char start = Character.toUpperCase(monthText.charAt(0));
+			monthText = start+monthText.substring(1);
 			String yearText = new SimpleDateFormat("yyyy", Locale.getDefault()).format(cal.getTime());
 			year.setText(yearText);
 			refreshCalendar();
