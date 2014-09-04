@@ -201,13 +201,14 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 	}
 
 	public static DatabaseHandler getInstance(Context context) {
-		boolean sd = doesSDCardAccessible();
-		if (sd) {
-			createAndInitAppDir();
-			return new DatabaseHandler(context, sd);
-		} else {
-			return new DatabaseHandler(context);
-		}
+//		boolean sd = doesSDCardAccessible();
+//		if (sd) {
+//			createAndInitAppDir();
+//			return new DatabaseHandler(context, sd);
+//		} else {
+//			return new DatabaseHandler(context);
+//		}
+		return new DatabaseHandler(context);
 	}
 
 	@Override
