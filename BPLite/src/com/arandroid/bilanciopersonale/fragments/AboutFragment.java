@@ -144,6 +144,7 @@ public class AboutFragment extends ListFragment {
 			case CHANGE_LOG:
 				title = "ChangeLog";
 				text = new StringBuilder();
+				text.append("\n\nVersione 2.0.1: Correzione bug database.");
 				text.append("\n\nVersione 2.0: Completo restyling grafico.");
 				text.append("\n\nVersione 1.1.0: Modifiche alla UI.\nCorretto bug database.\nNuova gestione backup/restore.\nAggiunta personalizzazione valuta.\nAggiunta descrizione per spese e ricavi.\nNuova Icona.");
 				text.append("\n\nVersione 1.0.8: Completo restyling grafico. Aggiunta lingua inglese.");
