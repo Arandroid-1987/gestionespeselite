@@ -169,7 +169,6 @@ public class DateUtils {
 			Date origDate = sdf.parse(originalDate);
 			c.setTime(origDate);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		Date prossimaData = null;

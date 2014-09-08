@@ -36,7 +36,7 @@ public class BilancioMeseCalculator {
 		d = c.getTime();
 		String endDate = DateUtils.getDate(d);
 		
-		String month = new SimpleDateFormat("MMMMM", Locale.getDefault()).format(d);
+		String month = new SimpleDateFormat("MMMM", Locale.getDefault()).format(d);
 		String year = new SimpleDateFormat("yyyy", Locale.getDefault()).format(d);
 		bm.setAnno(year);
 		bm.setMese(month);
